@@ -19,3 +19,9 @@ This will run the application locally on port 80 or 4000
 
 Use which is available at the root of the project `Cache Management.postman_collection.json`
 
+## Deployed Endpoint:
+
+URL: https://cache-management.herokuapp.com
+
+**Note**: For more details on the various endpoints available please import the above mentioned postman collection which is available at the roor of the project `Cache Management.postman_collection.json`
+
