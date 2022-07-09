@@ -12,7 +12,7 @@ This will set all the necessary env variables
 
 ### `npm run start`
 
-This will run the application locally on port 80
+This will run the application locally on port 80 or 4000
 
 
 ## Postman collection
