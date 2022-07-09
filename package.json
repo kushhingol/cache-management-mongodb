@@ -1,0 +1,31 @@
+{
+  "name": "cache-management-mongodb",
+  "version": "1.0.0",
+  "description": "An API management tool that will help to manage the cache of the application in MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushhingol/cache-management-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushhingol/cache-management-mongodb/issues"
+  },
+  "homepage": "https://github.com/kushhingol/cache-management-mongodb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "rootpath": "^0.1.2",
+    "uuid": "^8.3.2"
+  }
+}
