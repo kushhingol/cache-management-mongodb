@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "f7871c95-2166-4318-a85e-821bf3a12ac4",
+		"name": "Cache Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14943069"
+	},
+	"item": [
+		{
+			"name": "https://cache-management.herokuapp.com/api/cache/getCache/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cache-management.herokuapp.com/api/cache/getCache/ddeef",
+					"protocol": "https",
+					"host": [
+						"cache-management",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"cache",
+						"getCache",
+						"ddeef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cache-management.herokuapp.com/api/cache/getAllKeys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cache-management.herokuapp.com/api/cache/getAllKeys",
+					"protocol": "https",
+					"host": [
+						"cache-management",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"cache",
+						"getAllKeys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cache-management.herokuapp.com/api/cache/addCacheData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"name\": \"hello\",\r\n        \"age\": 25\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cache-management.herokuapp.com/api/cache/addCacheData",
+					"protocol": "https",
+					"host": [
+						"cache-management",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"cache",
+						"addCacheData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cache-management.herokuapp.com/api/cache/updateCacheData/:id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": \"New Data\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cache-management.herokuapp.com/api/cache/updateCacheData/krism",
+					"protocol": "https",
+					"host": [
+						"cache-management",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"cache",
+						"updateCacheData",
+						"krism"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cache-management.herokuapp.com/api/cache/deleteCache/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://cache-management.herokuapp.com/api/cache/deleteCache/krism",
+					"protocol": "https",
+					"host": [
+						"cache-management",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"cache",
+						"deleteCache",
+						"krism"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cache-management.herokuapp.com/api/cache/deleteAllCache",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://cache-management.herokuapp.com/api/cache/deleteAllCache",
+					"protocol": "https",
+					"host": [
+						"cache-management",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"cache",
+						"deleteAllCache"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
