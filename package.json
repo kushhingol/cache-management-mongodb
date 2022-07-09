@@ -4,6 +4,7 @@
   "description": "An API management tool that will help to manage the cache of the application in MongoDB",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,8 @@
     "express": "^4.18.1",
     "mongodb": "^4.7.0",
     "mongoose": "^6.4.4",
-    "rootpath": "^0.1.2"
+    "nodemon": "^2.0.19",
+    "rootpath": "^0.1.2",
+    "uuid": "^8.3.2"
   }
 }
